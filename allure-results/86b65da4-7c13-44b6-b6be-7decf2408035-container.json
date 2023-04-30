@@ -1,0 +1,1 @@
+{"uuid":"86b65da4-7c13-44b6-b6be-7decf2408035","name":"com.scrolltest.api.tests.TestDELETEPerson","children":["39f36503-483d-44df-b98b-392ff9b5b05b"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1682828182008,"stop":1682828182010}],"afters":[],"start":1682828182007,"stop":1682828182060}

@@ -1,0 +1,41 @@
+<suite name="full create read update delete scenario">
+
+
+    <test name="TestCreate">
+        <parameter name="firstName" value="mo'men"/>
+        <parameter name="lastName" value="darwish"/>
+        <parameter name="age" value="25"/>
+        <parameter name="id" value="10"/>
+        <parameter name="address" value="alexandria"/>
+        <classes>
+            <class name="com.scrolltest.api.tests.TestPOSTPerson"/>
+        </classes>
+    </test>
+
+
+    <test name="TestGet">
+        <parameter name="id" value="10"/>
+        <classes>
+            <class name="com.scrolltest.api.tests.TestGETPerson"/>
+        </classes>
+    </test>
+
+    <test name="TestUpdate">
+        <parameter name="id" value="10"/>
+        <parameter name="firstName" value="ahmed"/>
+        <parameter name="lastName" value="hossam"/>
+        <parameter name="age" value="25"/>
+        <parameter name="address" value="aswan"/>
+        <classes>
+            <class name="com.scrolltest.api.tests.TestUpdatePerson"/>
+        </classes>
+    </test>
+
+
+    <test name="TestDelete">
+        <parameter name="id" value="10"/>
+        <classes>
+            <class name="com.scrolltest.api.tests.TestDELETEPerson"/>
+        </classes>
+    </test>
+</suite>
