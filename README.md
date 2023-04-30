@@ -25,3 +25,4 @@ How to run the Project?
 -install allure for reporting 
 
 -to see the result using allure reports from the same opened powrshell use this comman:allure serve allure-results
+
