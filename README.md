@@ -15,8 +15,13 @@ Learning how to run full scenario using testNG .
 
 How to run the Project? 
 -install json server 
+
 -open project directory and open powershell 
+
 -run this command to setup the jsonserver and read the data base : json-server --watch db.json
+
 -open your IDE then run the testNG.xml file to run the full crud scenario
+
 -install allure for reporting 
+
 -to see the result using allure reports from the same opened powrshell use this comman:allure serve allure-results
